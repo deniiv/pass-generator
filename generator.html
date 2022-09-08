@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="generator.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Square+Peg&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+    <div class="container">
+       <h1 class="main-title">Generate a<span id="sec-row"><br>random password</span></h1>
+       <p class="text-below">Never use an insecure password again.</p>
+       <button onclick="renderPasswords()" id="main-btn">Generate passwords</button>
+</div>
+    <div class="passwords">
+    <div onclick="copyOne()" id="firstPass" ></div>  
+    <div onclick="copyTwo()"id="secondPass"></div>
+ </div>
+    <div class="copied-text">
+       <p class="copiedOne"></p>
+       <p class="copiedTwo"></p>
+</div>
+   <script src="boje-dai-mi-sili.js"></script>
+
+ </body>
+</html>
